@@ -9,12 +9,12 @@ public class FunRestController {
     // expose "/" that return hellow "World"
     @GetMapping("/")
     public String sayHello(){
-        return "Hello World";
+        return "Hello World!";
     }
 
     @GetMapping("/test")
     public String sayTest(){
-        return "Hello Test";
+        return "Hello Test!";
     }
 
 
