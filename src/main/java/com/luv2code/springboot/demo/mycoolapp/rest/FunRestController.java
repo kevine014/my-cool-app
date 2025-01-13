@@ -17,5 +17,12 @@ public class FunRestController {
         return "Hello Test!";
     }
 
+    //exose a nw endpoint for "workout"
+
+    @GetMapping("/workout")
+    public String getDailyWorkout (){ return "Run a hard 10k"; }
+
+    @GetMapping("/fortune")
+    public String getDailyFortune() { return "You are Lucky";}
 
 }

@@ -6,12 +6,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 @SpringBootApplication
 public class MycoolappApplication {
-
 	public static void main(String[] args) {
 
 		SpringApplication.run(MycoolappApplication.class, args);
 	}
-
-
-
 }
